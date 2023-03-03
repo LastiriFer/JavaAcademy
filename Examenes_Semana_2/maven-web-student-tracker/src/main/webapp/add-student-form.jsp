@@ -23,13 +23,13 @@
 			<input type="hidden" name="command" value="ADD" />
 			<div>
 				<div style="display:flex">
-					<label>First name:</label>
+					<label>Nombre:</label>
 					<input type="text" name="firstName" />
 				
 				</div>
 				<br>
 				<div style="display:flex">
-					<label>Last name:</label>
+					<label>Apellido:</label>
 					<input type="text" name="lastName" />
 				</div>
 				<br>

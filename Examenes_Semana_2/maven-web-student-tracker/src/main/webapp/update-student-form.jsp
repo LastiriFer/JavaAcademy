@@ -25,14 +25,14 @@
 			<input type="hidden" name="studentId" value="${THE_STUDENT.id}" />
 			<div>
 				<div style="display:flex">
-					<label>First name:</label>
-					<input type="text" name="firstName" value="${THE_STUDENT.firstName}" />
+					<label>Nombre:</label>
+					<input type="text" name="firstName" value="${THE_STUDENT.nombre}" />
 				</div>
 				<br>
 				<div style="display:flex">
 				
-					<label>Last name:</label>
-					<input type="text" name="lastName" value="${THE_STUDENT.lastName}" />
+					<label>Apellido:</label>
+					<input type="text" name="lastName" value="${THE_STUDENT.apellido}" />
 				</div>
 				<br>
 				<div style="display:flex">

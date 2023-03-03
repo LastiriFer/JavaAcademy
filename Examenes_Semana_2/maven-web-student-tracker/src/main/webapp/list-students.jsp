@@ -31,8 +31,8 @@
 			<table>
 			
 				<tr>
-					<th>First Name</th>
-					<th>Last Name</th>
+					<th>Nombre</th>
+					<th>Apellido</th>
 					<th>Email</th>
 					<th>Edad</th>
 					<th>Cursos</th>
@@ -54,8 +54,8 @@
 					</c:url>
 																		
 					<tr>
-						<td> ${tempStudent.firstName} </td>
-						<td> ${tempStudent.lastName} </td>
+						<td> ${tempStudent.nombre} </td>
+						<td> ${tempStudent.apellido} </td>
 						<td> ${tempStudent.email} </td>
 						<td> ${tempStudent.edad} </td>
 						<td> 

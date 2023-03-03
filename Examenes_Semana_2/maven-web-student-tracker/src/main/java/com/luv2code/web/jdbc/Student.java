@@ -5,36 +5,36 @@ import java.util.List;
 public class Student {
 
 	private int id;
-	private String firstName;
-	private String lastName;
+	private String nombre;
+	private String apellido;
 	private String email;
 	private String edad;
 	private List<Course> courses;
 
-	public Student(String firstName, String lastName, String email) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	/*public Student(String nombre, String apellido, String email) {
+		this.nombre = nombre;
+		this.apellido = apellido;
 		this.email = email;
-	}
-	public Student(String firstName, String lastName, String email,String edad, List<Course> courses) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	}*/
+	public Student(String nombre, String apellido, String email,String edad, List<Course> courses) {
+		this.nombre = nombre;
+		this.apellido = apellido;
 		this.email = email;
 		this.edad= edad;
 		this.courses= courses;
 	}
 
-	public Student(int id, String firstName, String lastName, String email) {
+	/*public Student(int id, String firstName, String lastName, String email) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
-	}
+	}*/
 
-	public Student(int id, String firstName, String lastName, String email,String edad,List<Course> courses) {
+	public Student(int id, String nombre, String apellido, String email,String edad,List<Course> courses) {
 		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.nombre =  nombre;
+		this.apellido = apellido;
 		this.email = email;
 		this.edad = edad;
 		this.courses = courses;
@@ -47,20 +47,20 @@ public class Student {
 		this.id = id;
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
 	public String getEmail() {
@@ -90,7 +90,7 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+		return "Student [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", email=" + email
 				+ ", courses=" + courses + "]";
 	}
 
